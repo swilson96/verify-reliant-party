@@ -4,7 +4,7 @@
 
 You have a local verify-service-provider running.
 
-You have configured the compliance tool (see [this helper script](scripts/configure-compliance-tool.sh)
+You have configured the compliance tool (see [this helper script](scripts/configure-compliance-tool.sh))
 
 ## Run this app
 
