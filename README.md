@@ -1,24 +1,20 @@
-# README
+# verify-reliant-party
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Assumptions
 
-Things you may want to cover:
+You have a local verify-service-provider running.
 
-* Ruby version
+You have configured the compliance tool (see [this helper script](scripts/configure-compliance-tool.sh)
 
-* System dependencies
+## Run this app
 
-* Configuration
+Install rbenv, and use it to install ruby.
 
-* Database creation
+```bash
+gem install bundler
+bundle install
+bin/rails server
+```
 
-* Database initialization
+[http://localhost:3000](http://localhost:3000)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
