@@ -2,7 +2,7 @@
 
 ## Assumptions
 
-You have a local [verify-service-provider](https://github.com/alphagov/verify-service-provider) running.
+You have a local [verify-service-provider](https://github.com/alphagov/verify-service-provider) running (on port 8080).
 
 You have configured the compliance tool (see [this helper script](scripts/configure-compliance-tool.sh))
 
